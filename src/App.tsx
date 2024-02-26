@@ -1,4 +1,5 @@
 import { Nav } from "./components/nav"
+import { Slider } from "./components/slider"
 
 export function App() {
   return (
@@ -6,6 +7,9 @@ export function App() {
       <header>
         <Nav />
       </header>
+      <main className="-z-20 relative">
+        <Slider />
+      </main>
     </>
   )
 }
